@@ -8,21 +8,21 @@ public class SegundoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero=textoScanner.nextInt();
         
-        int cont = 0;
-        if(n>=0){
-            for(int i=1;i<=n;i++){
+        int contador = 0;
+        if(numero>=0){
+            for(int i=1;i<=numero;i++){
             
-                cont=cont+i;            
+                contador=contador+i;            
             }
         }else{
-            for(int i=-1;i>=n;i--){
+            for(int i=-1;i>=numero;i--){
             
-                cont=cont-i;            
+                contador=contador-i;            
             }
         }
-        System.out.println("la sumatoria del numero "+n+" es "+cont);
+        System.out.println("la sumatoria del numero "+numero+" es "+contador);
     }
     
 }
