@@ -8,15 +8,15 @@ public class CuartoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        double n=textoScanner.nextDouble();
-        double cont=0,con=2;
+        double numero=textoScanner.nextDouble();
+        double contador1=0,contador2=2;
         do{
-            cont=n%con;
-            con++;
-        }while(cont!=0 && con<n);
+            contador1=numero%contador2;
+            contador2++;
+        }while(contador1!=0 && contador2<numero);
         
         
-        if(cont==0){
+        if(contador1==0){
             System.out.println("no es primo");
         }else{
             System.out.println("es primo");
