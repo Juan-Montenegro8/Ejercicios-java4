@@ -8,21 +8,21 @@ public class SextoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero1=textoScanner.nextInt();
         System.out.println("ingrese numero divisor");
-        int n1=textoScanner.nextInt();
+        int numero2=textoScanner.nextInt();
         
-        int cont =0;
+        int division =0;
         
-        if(n1<n || n1<=0 || n<=-1){
+        if(numero2<numero1 || numero2<=0 || numero1<=-1){
             System.out.println("no se puede dividir");
         }else{
-            while(n>n1){
-                n=n-n1;
-                cont++;
+            while(numero1>numero2){
+                numero1=numero1-numero2;
+                division++;
             }
             
-            System.out.println("la division es "+cont+" y el residuo es "+n);
+            System.out.println("la division es "+division+" y el residuo es "+numero1);
         }
     }
     
