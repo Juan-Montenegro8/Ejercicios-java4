@@ -10,15 +10,15 @@ public class QuintoEje {
         System.out.println("ingrese el numero");
         int numero=textoScanner.nextInt();
         
-        int in=0;
+        int invertido=0;
         
         while(numero>0){
-            int r =numero%10;
-            in=in*10+r;
+            int contenedor =numero%10;
+            invertido=invertido*10+contenedor;
             numero/=10;
-            System.out.println(in);
+            System.out.println(invertido);
         }
-        System.out.println("invertido es "+in);
+        System.out.println("invertido es "+invertido);
     }
     
 }
