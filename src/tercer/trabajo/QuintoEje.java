@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class QuintoEje {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=t.nextInt();
+        int numero=textoScanner.nextInt();
         
         int in=0;
         
-        while(n>0){
-            int r =n%10;
+        while(numero>0){
+            int r =numero%10;
             in=in*10+r;
-            n/=10;
+            numero/=10;
             System.out.println(in);
         }
         System.out.println("invertido es "+in);
