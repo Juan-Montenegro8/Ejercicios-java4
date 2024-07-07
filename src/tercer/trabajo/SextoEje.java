@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class SextoEje {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=t.nextInt();
+        int n=textoScanner.nextInt();
         System.out.println("ingrese numero divisor");
-        int n1=t.nextInt();
+        int n1=textoScanner.nextInt();
         
         int cont =0;
         
