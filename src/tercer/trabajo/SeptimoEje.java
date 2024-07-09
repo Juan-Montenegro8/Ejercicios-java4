@@ -8,17 +8,17 @@ public class SeptimoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero1=textoScanner.nextInt();
         System.out.println("ingrese numero multiplicador");
-        int n1=textoScanner.nextInt();
+        int numero2=textoScanner.nextInt();
         
-        int cont=n;
+        int contador=numero1;
                 
-        for(int i=1;i<n1;i++){
-            n+=cont;
+        for(int i=1;i<numero2;i++){
+            numero1+=contador;
         }
             
-        System.out.println("la multiplicacion es "+n);
+        System.out.println("la multiplicacion es "+numero1);
         
     }
     
