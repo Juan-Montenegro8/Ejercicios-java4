@@ -8,34 +8,34 @@ public class OctavoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero1=textoScanner.nextInt();
         System.out.println("ingrese numero multiplicador");
-        int n1=textoScanner.nextInt();
+        int numero2=textoScanner.nextInt();
         
-        int cont=0;
+        int contador=0;
                 
-        if(n>n1){
-            cont=n%n1;
-            if(cont==0){
-                System.out.println("el m.c.d. es "+n1);
+        if(numero1>numero2){
+            contador=numero1%numero2;
+            if(contador==0){
+                System.out.println("el m.c.d. es "+numero2);
             }
-            while(cont==0){
-                cont=n1%cont;
+            while(contador==0){
+                contador=numero2%contador;
             }
-            if(cont==0){
-                System.out.println("el m.c.d. es "+cont);
+            if(contador==0){
+                System.out.println("el m.c.d. es "+contador);
             }
         }else{
-            if(n1>n){
-               cont=n1%n;
-            if(cont==0){
-                System.out.println("el m.c.d. es "+n);
+            if(numero2>numero1){
+               contador=numero2%numero1;
+            if(contador==0){
+                System.out.println("el m.c.d. es "+numero1);
             }
-            while(cont==0){
-                cont=n%cont;
+            while(contador==0){
+                contador=numero1%contador;
             }
-            if(cont==0){
-                System.out.println("el m.c.d. es "+cont);
+            if(contador==0){
+                System.out.println("el m.c.d. es "+contador);
             } 
             }else{
                 System.out.println("los numeros son iguales");
