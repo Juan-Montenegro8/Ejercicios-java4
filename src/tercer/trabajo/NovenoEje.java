@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class NovenoEje {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese la base");
-        int base=t.nextInt();
+        int base=textoScanner.nextInt();
         System.out.println("ingrese exponente");
-        int exponente=t.nextInt();
+        int exponente=textoScanner.nextInt();
         
         int cont=1;
         
