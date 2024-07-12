@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class DecimoEje {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=t.nextInt();
+        int n=textoScanner.nextInt();
         
         int cont = 1;
         if(n>0){
