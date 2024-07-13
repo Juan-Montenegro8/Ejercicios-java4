@@ -8,17 +8,17 @@ public class DoceavoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero=textoScanner.nextInt();
         
-        int cont = 1;
-        int con=0;
-        if(n>0){
-            for(int i=1;i<=n;i++){
+        int contador1 = 1;
+        int contador2 = 0;
+        if(numero>0){
+            for(int i=1;i<=numero;i++){
             
-                cont=cont*i;            
-                con+=cont;
+                contador1=contador1*i;            
+                contador2+=contador1;
             } 
-            System.out.println("la sumatoria es "+con);
+            System.out.println("la sumatoria es "+contador2);
         }else{
             System.out.println("a numero negativo no se le saca afctorial");
         } 
