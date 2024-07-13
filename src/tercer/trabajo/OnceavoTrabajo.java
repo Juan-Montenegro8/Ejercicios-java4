@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class OnceavoTrabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        double n=t.nextDouble();
+        double n=textoScanner.nextDouble();
         
                
         for (int i = 1; i <=n; i++) {
