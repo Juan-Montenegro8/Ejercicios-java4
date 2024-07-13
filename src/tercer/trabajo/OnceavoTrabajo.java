@@ -8,16 +8,16 @@ public class OnceavoTrabajo {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        double n=textoScanner.nextDouble();
+        double numero=textoScanner.nextDouble();
         
                
-        for (int i = 1; i <=n; i++) {
-        double cont=0,con=2;    
+        for (int i = 1; i <=numero; i++) {
+        double contador1=0,contador2=2;    
             do{
-                cont=i%con;
-                con++;
-            }while(cont!=0 && con<i);
-            if(cont!=0){
+                contador1=i%contador2;
+                contador2++;
+            }while(contador1!=0 && contador2<i);
+            if(contador1!=0){
                 System.out.println(i+" es primo");
             }
         }             
