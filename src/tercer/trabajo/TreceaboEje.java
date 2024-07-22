@@ -8,20 +8,20 @@ public class TreceaboEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        double x=textoScanner.nextDouble();
+        double numero1=textoScanner.nextDouble();
         System.out.println("ingrese el numero");
-        double n=textoScanner.nextDouble();
+        double numero2=textoScanner.nextDouble();
                 
-        double cont =1;
-        double con =0;
+        double contador1 =1;
+        double contador2 =0;
         
-        if(n>0 && x>0){
-            for (int i = 1; i <=n; i++) {
-                cont=cont*i;
-                con+=x/cont;
+        if(numero2>0 && numero1>0){
+            for (int i = 1; i <=numero2; i++) {
+                contador1=contador1*i;
+                contador2+=numero1/contador1;
             }
-            double re=con+1;
-            System.out.println("el resdultado es "+re);
+            double resultado=contador2+1;
+            System.out.println("el resultado es "+resultado);
         }else{
             System.out.println("no pueden ir numeros  negativos ni el 0");
         }
