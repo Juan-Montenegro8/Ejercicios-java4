@@ -8,21 +8,21 @@ public class QuinceEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n=textoScanner.nextInt();
+        int numero=textoScanner.nextInt();
         
-        int in=0;
-        if(n>0){
-        while(n>0){
-            int r =n%10;
-            n/=10;
-            int cont=0;
-            for(int i=1;i<=r;i++){
+        int invertido=0;
+        if(numero>0){
+        while(numero>0){
+            int resultado =numero%10;
+            numero/=10;
+            int contador=0;
+            for(int i=1;i<=resultado;i++){
             
-                cont=cont+i;            
+                contador=contador+i;            
             }
-            in+=cont;
+            invertido+=contador;
         }
-        System.out.println("invertido es "+in);
+        System.out.println("invertido es "+invertido);
         }else{
             System.out.println("numeros superiores a 0");
         }
