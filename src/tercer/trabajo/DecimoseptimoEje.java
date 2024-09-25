@@ -8,12 +8,12 @@ public class DecimoseptimoEje {
         Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int numero=textoScanner.nextInt();
+        int number=textoScanner.nextInt();
         
-        System.out.println("lso primeros "+numero+" numeros cuadrados son");
-        for (int i = 1; i <=numero; i++) {
-            int contador=i*i;
-            System.out.println(i+" x "+i+" = "+contador);
+        System.out.println("los primeros "+number+" numeros cuadrados son");
+        for (int i = 1; i <=number; i++) {
+            int count=i*i;
+            System.out.println(i+" x "+i+" = "+count);
         }
     }
     
